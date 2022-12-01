@@ -2,18 +2,26 @@ h1 {
   font-size: 2.7em;
   color: rgb(59, 129, 107);
   text-align: center;
+  font-family: "Bungee Shade", cursive;
 }
 
 h2 {
   font-size: 2.3em;
+  font-family: "Bungee Shade", cursive;
 }
 
 h3 {
   font-size: 1.3em;
+  font-family: "Bungee Shade", cursive;
 }
 
 h4 {
   font-size: 0.9em;
+  font-family: "Work Sans", sans-serif;
+}
+
+p {
+  font-family: "Work Sans", sans-serif;
 }
 
 button {
