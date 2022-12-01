@@ -1,0 +1,48 @@
+.mat-wrapper{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#game-controls{
+text-align: center;
+margin-top: 35px
+}
+.score{
+    margin: 20px auto;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.overview{
+    display: flex;
+    border: 6px solid $primary;
+    width: 70%;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+
+.turns{
+    text-align: center;
+}
+
+.player-mat{
+    border-radius: 20px;
+    width: 500px;
+    padding: 15px;
+    text-align: center;
+    margin: 15px;
+    background-color: $primary;
+    color: $lightfont;
+}
+
+.alert{
+    margin: 20px;
+    color: $error;
+    height: 40px;
+    font-size: 1em;
+    font-weight: bold;
+}

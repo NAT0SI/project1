@@ -1,0 +1,28 @@
+.hidden{
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
+#popup{
+    background-color: rgba(17, 4, 49, 0.914);
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    vertical-align: middle;
+    h3{
+        @include middle-header;
+    }
+    button{
+        @include center;
+
+    }
+}

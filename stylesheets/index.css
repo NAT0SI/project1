@@ -1,0 +1,118 @@
+h1 {
+  font-size: 2.7em;
+  color: rgb(59, 129, 107);
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.3em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+h4 {
+  font-size: 0.9em;
+}
+
+button {
+  background-color: rgb(11, 12, 49);
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  min-width: 120px;
+  margin: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+#popup {
+  background-color: rgba(17, 4, 49, 0.914);
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  vertical-align: middle;
+}
+#popup h3 {
+  text-align: center;
+  font-weight: 100;
+  padding: 10px;
+  margin: 25px;
+}
+#popup button {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.dice {
+  width: 100px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.mat-wrapper {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#game-controls {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.score {
+  margin: 20px auto;
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.overview {
+  display: flex;
+  border: 6px solid rgb(80, 115, 189);
+  width: 70%;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 20px;
+  justify-content: space-around;
+}
+
+.turns {
+  text-align: center;
+}
+
+.player-mat {
+  border-radius: 20px;
+  width: 500px;
+  padding: 15px;
+  text-align: center;
+  margin: 15px;
+  background-color: rgb(80, 115, 189);
+  color: rgb(195, 255, 240);
+}
+
+.alert {
+  margin: 20px;
+  color: rgb(245, 174, 20);
+  height: 40px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=index.css.map */
